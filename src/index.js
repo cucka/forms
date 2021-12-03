@@ -2,11 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import LogIn from './LogIn';
+import SimpleForm from './SimpleForm';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <SimpleForm />
   </React.StrictMode>,
   document.getElementById('root')
 );

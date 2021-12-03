@@ -1,0 +1,40 @@
+body{
+    background: #bce4a7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formContainer{
+    width: 360px;
+    background-color: white;
+    margin: auto;
+    padding: 10px;
+}
+
+.logInForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.successMessage{
+    background-color: #7ad1a5;
+    padding: 15px;
+    color: #fff;
+}
+
+span{
+    color: red;
+}
+
+.formField{
+    margin: 10px 0;
+    padding: 15px;
+}
+
+button{
+    background:#066d08;
+    color: #fff;
+}
